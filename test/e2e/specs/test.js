@@ -6,7 +6,6 @@ var request = require('request')
 module.exports = {
   'game starts': function (browser) {
     // automatically uses dev Server port from /config.index.js
-    // see nightwatch.conf.js
     const devServer = browser.globals.devServerURL
 
     browser
